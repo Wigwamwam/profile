@@ -75,6 +75,15 @@ div {
   display: inline-block;
 }
 
+.list-inline li:hover {
+  transition: 0.3s;
+  color: rgb(69, 50, 1);
+  background-color: rgb(245 245 245);;
+  border: 3px solid orange;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .list-inline {
   list-style: none;
   padding-left: 0px;
